@@ -1,8 +1,8 @@
 /*
 Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Client: Relaxr
+Author: Dominique
+Developer @GA in DC
 */
 
 
@@ -18,6 +18,11 @@ Developer @GA in NYC
 }
 
 /* Clear fix hack */
+
+.clearfix{
+  overflow: auto;
+  zoom:1;
+}
 .clearfix:after {
      content: ".";
      display: block;
@@ -46,12 +51,8 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     padding: 20px;
-     font-size: 30px;
      color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     font-family: 'Open Sans', sans-serif;
      /*background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);*/
       background-size: cover;
 }
@@ -59,12 +60,7 @@ body {
 .division {
   float: right;
 }
-.HelloWorld {
-  float: left;
-}
-.ByeWorld {
-  float: right; 
-}
+
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -77,12 +73,129 @@ body {
 
 }
 
+h1.relaxr{
+  text-align: center
+  font-family: 'Open Sans', sans-serif;
+  font-size: 36px;
+  color: white;
+  font-weight: 800;
+}
+
 header {
+  background-image: url("../images/header_bg.jpg");
+  background-size: cover;
+  padding: 40px 40px
+}
+
+span#peace{
+  font-family: 'Open Sans', sans-serif;
+  display: block;
+  font-weight: 600;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+}
+
+header p {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.getitnow {
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+  color: #121212;
+  font-size: 14px;
+  background: #f9e42e;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.getitnow:hover {
+  background: #606161;
+  text-decoration: none;
+}
+
+div.benefits{
+  font-size: 13px;
+  font-weight: 300;
+  padding: 40px 40px;
+  color: #606161;
+}
+
+div#perfect{
+  padding: 20px 0px;
+}
+
+
 
 }
 
-footer {
+p.list{
+  font-weight: 300;
+  font-size: 13px;
+  color: #606161;
+}
 
+div#quote{
+  background-image: url("../images/testimonial_bg.jpg");
+  background-size:cover;
+  padding: 200px 200px;
+  color: white;
+  font-size: 18px;
+  font-weight:300;
+  font-style: italic;
+  text-align: center;
+}
+
+#quote span{
+  font-size: 18px;
+  font-weight: 800;
+}
+
+div#signup{
+  background-color: #f9e42e;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+}
+
+.btnsignup {
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+  font-size: 12px;
+  background: #033048;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btnsignup:hover {
+  background: #121212;
+  color: white;
+}
+
+footer {
+  font-size: 24px;
+  font-weight: 800;
+  background-color: #121212;
+  color: #f9e42e;
+}
+
+div.bottom{
+  padding: 40px;
+  text-align: center;
+}
+
+footer p{
+  padding: 10px;
+  font-weight: 600;
+  font-size:9px;
+  color: #606161;
 }
 
 /******************************************
