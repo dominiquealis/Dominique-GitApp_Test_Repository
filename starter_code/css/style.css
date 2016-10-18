@@ -118,6 +118,25 @@ header p {
   border-top-color: transparent;
 }
 
+bootstrap button test /*
+*/
+a.btn{
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+  color: #121212;
+  font-size: 14px;
+  background: #f9e42e;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-top-color: transparent;
+}
+
+bootstrap button test /*
+*/
+
 .getitnow:hover {
   background: #606161;
   text-decoration: none;
