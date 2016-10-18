@@ -84,12 +84,13 @@ h1.relaxr{
 header {
   background-image: url("../images/header_bg.jpg");
   background-size: cover;
-  padding: 40px 40px
+  padding: 80px 80px
 }
 
 span#peace{
   font-family: 'Open Sans', sans-serif;
   display: block;
+  padding: 40px 40px;
   font-weight: 600;
   font-size: 24px;
   color: white;
@@ -111,6 +112,10 @@ header p {
   background: #f9e42e;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-top-color: transparent;
 }
 
 .getitnow:hover {
@@ -139,18 +144,21 @@ p.list{
   color: #606161;
 }
 
-div#quote{
+blockquote#quotation{
   background-image: url("../images/testimonial_bg.jpg");
   background-size:cover;
   padding: 200px 200px;
+  border-left: 0px;
+  margin: 0 0;
   color: white;
-  font-size: 18px;
+  font-size: 13px;
   font-weight:300;
   font-style: italic;
   text-align: center;
 }
 
-#quote span{
+
+#quotation span{
   font-size: 18px;
   font-weight: 800;
 }
@@ -172,6 +180,10 @@ div#signup{
   background: #033048;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-top-color: transparent;
 }
 
 .btnsignup:hover {
