@@ -57,9 +57,6 @@ body {
       background-size: cover;
 }
 
-.division {
-  float: right;
-}
 
 /******************************************
 /* LAYOUT
@@ -75,8 +72,7 @@ body {
 
 h1.relaxr{
   text-align: center
-  font-family: 'Open Sans', sans-serif;
-  font-size: 36px;
+  font-size: 2.250em;
   color: white;
   font-weight: 800;
 }
@@ -92,7 +88,7 @@ span#peace{
   display: block;
   padding: 40px 40px;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 1.500em;
   color: white;
   text-align: center;
 }
@@ -102,12 +98,12 @@ header p {
   text-align: center;
 }
 
-.getitnow {
-  -webkit-border-radius: 5;
-  -moz-border-radius: 5;
+/* yellow button styling
+*/
+.btn-primary{
   border-radius: 5px;
   color: #121212;
-  font-size: 14px;
+  font-size: .875em;
   background: #f9e42e;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
@@ -117,17 +113,10 @@ header p {
   border-top-color: transparent;
 }
 
-.btn-primary{
-  border-radius: 5px;
-  color: #121212;
-  font-size: 14px;
-  background: #f9e42e;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-  border-left-color: transparent;
-  border-right-color: transparent;
-  border-bottom-color: transparent;
-  border-top-color: transparent;
+.btn-primary:focus, .btn-primary:hover {
+    background-color: #ccbd3f;
+    background-position: 0 -15px;
+    color: black;
 }
 
 
@@ -137,9 +126,9 @@ header p {
 }
 
 div.benefits{
-  font-size: 13px;
+  font-size: 1.250em;
   font-weight: 300;
-  padding: 40px 40px;
+  padding: 80px 80px;
   color: #606161;
 }
 
@@ -148,12 +137,9 @@ div#perfect{
 }
 
 
-
-}
-
 p.list{
   font-weight: 300;
-  font-size: 13px;
+  font-size: .813em;
   color: #606161;
 }
 
@@ -167,54 +153,47 @@ p.list{
 #quotation{
   border-left: 0px;
   margin: 0px auto;
+  padding: 0 0;
   color: white;
-  font-size: 13px;
+  font-size: 1.125em;
   font-weight:300;
   font-style: italic;
   text-align: center;
 }
 
-div.row{
-
-
-}
 
 
 #quotation span{
-  font-size: 18px;
+  font-style: normal;
+  font-size: 1.125em;
   font-weight: 800;
 }
 
 div#signup{
   background-color: #f9e42e;
-  padding: 20px;
+  padding: 40px;
   margin: auto;
   text-align: center;
 }
 
-.btnsignup {
+.btn-secondary {
   -webkit-border-radius: 5;
   -moz-border-radius: 5;
   border-radius: 5px;
-  font-family: 'Open Sans', sans-serif;
   color: #ffffff;
-  font-size: 12px;
+  font-size: .750em;
   background: #033048;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
-  border-left-color: transparent;
-  border-right-color: transparent;
-  border-bottom-color: transparent;
-  border-top-color: transparent;
 }
 
-.btnsignup:hover {
-  background: #121212;
+.btn-secondary:hover {
+  background: #1e3142;
   color: white;
 }
 
 footer {
-  font-size: 24px;
+  font-size: 1.500em;
   font-weight: 800;
   background-color: #121212;
   color: #f9e42e;
@@ -227,11 +206,18 @@ div.bottom{
 
 footer p{
   padding: 10px;
-  font-weight: 600;
-  font-size:9px;
+  font-weight: 800;
+  font-size:.563em;
   color: #606161;
 }
 
+img.social{
+  padding: 15px 0;
+}
+
+footer p {
+  padding: 10px 0;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
