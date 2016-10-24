@@ -1,3 +1,40 @@
+/*background color: #f0efef
+yellow: #f9e42e
+dark blue: #033048
+light grey: #606161
+almost black: #121212
+
+Font: Open Sans
+Weight: Light, Light Italic, Semibold, Extrabold
+
+Nav: Semibold, 24px
+
+Main column width: 700px
+Sidebar width: 240px
+Gutter: 20px
+
+Post Titles - 40px, semibold
+"How I implemented Relaxr in 2 weeks and changed my life."
+"I traveled across the globe thanks to Relaxr’s Excel auomation"
+
+Body text - Light 24px
+Read More - 24px semibold
+
+Sidebar headers - 32px, extra bold
+Categories list - 24px, light
+"Success stories
+Stats
+How tos
+Best of
+Business tips"
+
+About text - 22px light
+Proin sed justo vel sapien varius auctor. Proin scelerisque massa at luctus tincidunt. Fusce porttitor, sapien sed tincidunt fringilla.
+Learn More - Semibold, 22
+
+
+*/
+
 
 /* Box Model Hack */
 * {
@@ -15,3 +52,132 @@
      line-height: 0;
      height: 0;
 }
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #f0efef;
+	font-weight: 400;
+}
+
+
+div.nav{
+	background-color: #033048;
+	font-size: 24px;
+	font-weight: 600;
+
+}
+
+.nav h1{
+	float: left;
+	color: white;
+	font-size: 36px;
+	margin-top: 15px;
+	margin-bottom: 0;
+	font-weight: 600;
+
+}
+
+.nav ul{
+	margin-top: 20px;
+	float: right;
+}
+
+.nav ul li{
+	display: inline;
+	list-style: none;
+	color: #f9e42e;
+	padding: 20px 20px 0 20px;
+	text-align: right;
+	font-size: 24px;
+}
+
+.col-md-8{
+	min-width: 700px;
+	margin: 0 20px 0 20px;
+}
+
+.col-md-4{
+	max-width: 240px;
+}
+
+p{
+	max-width: 700px;
+	margin: 25px 0 25px 0;
+}
+
+p.drop-cap:first-letter {
+    font-size: 4.5em;
+    float: left;
+    margin-top: .15em;
+}
+
+
+hr{
+	border-color: #033048;
+	max-width: 700px;
+	margin: 5px 5px;
+}
+
+h2{
+	font-size: 40px;
+	font-weight: 600;
+	color: #033048;
+	max-width: 700px;
+}
+
+.readmore{
+	text-align: right;
+	max-width: 700px;
+}
+
+
+div#signup{
+  background-color: #f9e42e;
+  padding: 40px;
+  margin: auto;
+  text-align: center;
+}
+
+.btn-secondary {
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: .750em;
+  background: #033048;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn-secondary:hover {
+  background: #1e3142;
+  color: white;
+}
+
+footer {
+  font-size: 1.500em;
+  font-weight: 800;
+  background-color: #121212;
+  color: #f9e42e;
+}
+
+div.bottom{
+  padding: 40px;
+  text-align: center;
+}
+
+footer p{
+  padding: 10px;
+  font-weight: 800;
+  font-size:.563em;
+  color: #606161;
+}
+
+img.social{
+  padding: 15px 0;
+}
+
+footer p {
+  padding: 10px 0;
+}
+
