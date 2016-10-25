@@ -56,7 +56,9 @@ Learn More - Semibold, 22
 body {
 	font-family: 'Open Sans', sans-serif;
 	background-color: #f0efef;
-	font-weight: 400;
+	font-size: 24px;
+	font-weight: 300;
+	color: #033048;
 }
 
 
@@ -82,9 +84,12 @@ div.nav{
 	float: right;
 }
 
+ul li {
+	list-style: none;
+}
+
 .nav ul li{
 	display: inline;
-	list-style: none;
 	color: #f9e42e;
 	padding: 20px 20px 0 20px;
 	text-align: right;
@@ -101,21 +106,23 @@ div.nav{
 }
 
 p{
-	max-width: 700px;
 	margin: 25px 0 25px 0;
 }
 
+p.drop-cap{
+	max-width: 700px;
+}
+
 p.drop-cap:first-letter {
-    font-size: 4.5em;
+    font-size: 36px;
     float: left;
-    margin-top: .15em;
 }
 
 
 hr{
 	border-color: #033048;
 	max-width: 700px;
-	margin: 5px 5px;
+	margin: 5px 0 40px 0;
 }
 
 h2{
@@ -129,6 +136,28 @@ h2{
 	text-align: right;
 	max-width: 700px;
 }
+
+h3{
+	font-size: 32px;
+	font-weight: 800;
+
+}
+
+.raillist{
+	font-size: 24px;
+	padding: 0 0;
+}
+
+#about{
+	font-size: 22px;
+	font-weight: 300;
+}
+
+#learnmore{
+	font-weight: 600;
+	display: block;
+}
+
 
 
 div#signup{
@@ -179,5 +208,10 @@ img.social{
 
 footer p {
   padding: 10px 0;
+}
+
+p#copyright{
+	text-align: center;
+	margin: 0 0;
 }
 
