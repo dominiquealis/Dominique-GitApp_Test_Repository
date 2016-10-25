@@ -61,6 +61,14 @@ body {
 	color: #033048;
 }
 
+a{
+	color: #f9e42e;
+}
+
+a:hover {
+	color: #f0efef;
+	text-decoration: none;
+}
 
 div.nav{
 	background-color: #033048;
@@ -80,7 +88,7 @@ div.nav{
 }
 
 .nav ul{
-	margin-top: 20px;
+	margin: 20px 0 0 0;
 	float: right;
 }
 
@@ -137,6 +145,10 @@ h2{
 	max-width: 700px;
 }
 
+.readmore a{
+	color:#121212;
+}
+
 h3{
 	font-size: 32px;
 	font-weight: 800;
@@ -144,8 +156,17 @@ h3{
 }
 
 .raillist{
+	padding-left: 0;
+}
+
+.raillist li a {
 	font-size: 24px;
 	padding: 0 0;
+	color: #121212;
+}
+
+.raillist a:hover {
+	color: #4a5256;
 }
 
 #about{
@@ -211,7 +232,7 @@ footer p {
 }
 
 p#copyright{
-	text-align: center;
+	text-align: center;s
 	margin: 0 0;
 }
 
