@@ -35,15 +35,43 @@
 // running object moves quickly to move forward
 
 var heightOfLift = 300;
+var thighwidth;
+var thighheight;
 
 
 // added a click listener to the document
 $(document).ready(function(){
     $( "#run" ).on( "click", function() {
-        console.log( "click woooo" );
-        makeObjectWalk()
+    	thighwidth = $("#jQueryThigh").width();
+		thighheight = $("#jQueryThigh").height();
+	$("#jQueryLeg").toggleClass("rotate");
+        console.log( "click woo" );
+        makeObjectWalk();
+
     });
 });
+
+
+// // leighs example
+// var heightOfLift = 300;
+// var thighwidth;
+// var thighheight;
+// $(document).ready(function(){
+//   $("button#run").on("click",function(){
+//     thighwidth = $("#jQueryThigh").width();
+//     thighheight = $("#jQueryThigh").height();
+//     makeObjectWalk();
+//   })
+// });
+
+
+
+// class codealong example
+// $(document).ready(function(){
+// 	$('button#run').on('click',function(){
+// 		makeObjectWalk();
+// 	})
+// });
 
 // function makeObjectRun(start, destination, speed){
 //  liftThighPart();
@@ -63,20 +91,28 @@ function makeObjectStop () {
 
 }
 
-// object lifts body part step 2
+
+// object lifts body part
 function liftThighPart (bodypart, height){
-console.log(bodypart, height)
-  $("#jQueryThigh").animate({height: "50px", width: heightOfLift});
+
+ console.log(thighwidth);
+ console.log(thighheight);
+ $("#jQueryThigh").width(thighheight).delay(2000);
+ $("#jQueryThigh").height(thighwidth).delay(2000);
 }
 
 // object moves body part
 function liftShinPart (distance){
+	$('#jQueryShin').css({'top': '0px','left': thighheight})
+
 
 }
 // object sets body part down
 function setThighDown (bodypart, height){
-
+ // $("#jQueryThigh").width(thighheight);
+ // $("#jQueryThigh").height(thighwidth);
 }
+
 function setShinDown (bodypart, height){}
 
 
