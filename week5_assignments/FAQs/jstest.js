@@ -1,39 +1,18 @@
 
-// example grabbed from w3schools
 
+$(document).ready(function(){
+	$('.q1').click(function(){
+		$('#answer1').toggle('test');
+	});
 
-$(function() {
-    $("#answer1,#answer2,#answer3").hide()
+		$('.q2').click(function(){
+		$('#answer2').toggle('test');
+	});
+
+	$('.q3').click(function(){
+		$('#answer3').toggle('test');
+	});
+	
 });
 
 
-
-$("h2").click(function(){
-    $("p").toggle();
-    console.log('yes');
-});
-
-
-
-// $("#question1").on("click",function(){
-//     $("#answer1").show();
-//     console.log(woo);
-// });
-
-
-
-// // object lifts body part
-// function liftThighPart (bodypart, height){
-
-//  console.log(thighwidth);
-//  console.log(thighheight);
-//  $("#jQueryThigh").width(thighheight).delay(2000);
-//  $("#jQueryThigh").height(thighwidth).delay(2000);
-// }
-
-
-
-// $('#sub1').click(function(){
-// 	addTotal(-1);
-// 	console.log('click');
-// });
