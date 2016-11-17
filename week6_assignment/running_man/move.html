@@ -1,0 +1,74 @@
+<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="running.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+<body class="container">
+    <div class="row">
+        <div class="col-md-1">
+          <button id="run">Run</button>
+        </div>
+        <div class="col-md-10">
+            <div id="jQueryLeg" class=" box_transition rotate">
+                <div id="jQueryThigh" class="skinColor">
+                    <div id="jQueryShin" class="skinColor">
+                        <div id="jQueryFoot" class="skinColor"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <style>
+    #jQueryLeg {
+        position: relative;
+        width: 50px;
+        height: 50px;
+        border: thick gold solid;
+    }
+
+    #jQueryThigh {
+        height: 300px;
+        width: 50px;
+        border: thin red solid;
+        position: absolute;
+        top: 0px;
+        left: 0%;
+    }
+
+    #jQueryShin {
+        height: 300px;
+        width: 50px;
+        border: thin blue solid;
+        position: absolute;
+        bottom: -100%;
+        left: 0%;
+    }
+
+    #jQueryFoot {
+        width: 100px;
+        height: 50px;
+        border: thin green solid;
+        position: absolute;
+        bottom: 0px;
+        left: 0%;
+    }
+
+    .rotate{
+      -webkit-transform: rotate(7.5deg);
+            -ms-transform: rotate(7.5deg);
+                transform: rotate(7.5deg);
+    }
+    .box_transition {
+        -webkit-transition: all 0.3s ease-out;  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+                transition: all 0.3s ease-out;  /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */
+      }
+
+    .skinColor {}
+    </style>
+</body>
+
+</html>

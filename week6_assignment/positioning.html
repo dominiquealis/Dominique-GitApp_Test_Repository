@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <p class="hideme">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab soluta voluptate officiis dolore doloremque quisquam, mollitia hic dolor, sequi nulla alias maxime at consequuntur harum veritatis rem modi recusandae amet.
+    </p>
+
+    <button id="hidebutton">Hide me</button>
+    <button id="showbutton" >Show me</button>
+
+    <script>
+      document.write("this is my DOM");
+      var fname = "leigh";
+      var lname = "boone"
+      document.write(" " + fname + " " + lname);
+
+      document.getElementById("hidebutton").addEventListener("click",function (){
+            console.log("javascript")
+          } )
+
+      // $("#hidebutton").click(
+      //     function (){
+      //       console.log("click")
+      //     }
+      //   )
+
+
+    </script>
+    <style>
+      .thisismyclass{
+        background-color: blue;
+      }
+    </style>
+  </body>
+</html>

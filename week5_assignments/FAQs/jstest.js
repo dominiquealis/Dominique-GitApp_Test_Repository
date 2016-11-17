@@ -5,7 +5,7 @@ $(document).ready(function(){
 		$('#answer1').toggle('test');
 	});
 
-		$('.q2').click(function(){
+	$('.q2').click(function(){
 		$('#answer2').toggle('test');
 	});
 
