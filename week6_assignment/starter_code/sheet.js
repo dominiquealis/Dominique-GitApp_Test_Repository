@@ -25,7 +25,6 @@ $(document).ready(function(){
 // Part of code that expands/contracts the sidebar info
 
 	$(".learnmore").click(function(){
-	console.log("boooo");
 	$(".learnmore").hide();
 	$("#learnmoretext").slideDown("fast");
 
